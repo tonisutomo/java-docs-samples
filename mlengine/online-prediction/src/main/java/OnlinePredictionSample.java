@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+// [START mle_online_prediction_predict_json]
 import com.google.api.client.googleapis.auth.oauth2.GoogleCredential;
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.http.FileContent;
@@ -70,4 +71,4 @@ public class OnlinePredictionSample {
     System.out.println(response);
   }
 }
-
+// [END mle_online_prediction_predict_json]
